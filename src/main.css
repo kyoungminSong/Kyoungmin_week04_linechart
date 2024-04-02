@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -7,6 +7,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 .summary {
@@ -18,7 +19,8 @@
 }
 
 .summary .b-type {
-  font-size: 18px;
+  font-size: 15px;
+  color: #c9c9c9;
 }
 
 .summary .b-type span {
@@ -35,9 +37,10 @@
 }
 
 .summary .b-price #unit {
-  font-size: 27px;
-  color: #888;
+  font-size: 36px;
+  color: #e1e1e1;
   font-weight: 500;
+  font-style: italic;
 }
 
 .summary .b-date {
@@ -47,10 +50,34 @@
 }
 
 #svg-container {
-  /* border: 1px solid red; */
+  border-bottom: 1.5px dashed rgb(255, 255, 255, 0.2);
+  border-left: 1.5px dashed rgb(255, 255, 255, 0.2);
+  margin-top: 15px;
   width: 95%;
   max-width: 830px;
   height: 480px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 95%;
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#date-start {
+  font-size: 12px;
+  color: #888;
+  margin-left: 20px;
+}
+
+#date-end {
+  font-size: 12px;
+  color: #888;
+  margin-right: 20px;
 }
