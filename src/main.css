@@ -7,11 +7,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 
 .summary {
-  margin-top: 100px;
+  margin-top: 30px;
   width: 95%;
   max-width: 830px;
   margin-left: auto;
@@ -29,29 +29,30 @@
 
 .summary .b-price {
   margin-top: 3px;
+  color: #ffffff;
 }
 
 .summary .b-price #price {
-  font-size: 54px;
+  font-size: 50px;
   font-weight: 500;
 }
 
 .summary .b-price #unit {
-  font-size: 36px;
+  font-size: 30px;
   color: #e1e1e1;
   font-weight: 500;
   font-style: italic;
 }
 
 .summary .b-date {
-  font-size: 16px;
+  font-size: 12px;
   color: #888;
   margin-top: 3px;
 }
 
 #svg-container {
-  border-bottom: 1.5px dashed rgb(255, 255, 255, 0.2);
-  border-left: 1.5px dashed rgb(255, 255, 255, 0.2);
+  /* border-bottom: 1.5px dashed rgb(255, 255, 255, 0.2);
+  border-left: 1.5px dashed rgb(255, 255, 255, 0.2); */
   margin-top: 15px;
   width: 95%;
   max-width: 830px;
@@ -60,7 +61,7 @@
   margin-right: auto;
 }
 
-.date {
+/* .date {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -80,4 +81,4 @@
   font-size: 12px;
   color: #888;
   margin-right: 20px;
-}
+} */
